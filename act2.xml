@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cataleg>
+    <llista_actors>
+        <!--actors p1-->
+        <actor id="A1">
+            <nom>Enzo Vogrincic</nom>
+            <edat>31</edat>
+        </actor>
+        <actor id="A2">
+            <nom>Matias Recalt</nom>
+            <edat>23</edat>
+        </actor>
+        <actor id="A3">
+            <nom>Carlos Páez</nom>
+            <edat>71</edat>
+        </actor>
+        <!--actors p2-->
+        <actor id="A4">
+            <nom>Kristen Stewart</nom>
+            <edat>34</edat>
+        </actor>
+        <actor id="A5">
+            <nom>Robert Pattinson</nom>
+            <edat>38</edat>
+        </actor>
+        <actor id="A6">
+            <nom>Taylor Lautner</nom>
+            <edat>32</edat>
+        </actor>
+        <!--actors p3-->
+        <actor id="A7">
+            <nom>Kate Winslet</nom>
+            <edat>49</edat>
+        </actor>
+        <actor id="A8">
+            <nom>Leonardo DiCaprio</nom>
+            <edat>50</edat>
+        </actor>
+        <actor id="A9">
+            <nom>Billy Zane</nom>
+            <edat>58</edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <!--pelicula 1-->
+        <pelicula id="p1">
+            <titol idioma="Espanyol">La sociedad de la nieve</titol>
+            <director>J. A. Bayona</director>
+            <any>2023</any>
+            <actors>
+                <actor_ref ref="A1"/>
+                <actor_ref ref="A2"/>
+                <actor_ref ref="A3"/>
+            </actors>
+        </pelicula>
+        <!--pelicula 2-->
+        <pelicula id="p2">
+            <titol idioma="Anglés">Crepusculo</titol>
+            <director>Catherine Hardwicke</director>
+            <any>2008</any>
+            <actors>
+                <actor_ref ref="A4"/>
+                <actor_ref ref="A5"/>
+                <actor_ref ref="A6"/>
+            </actors>
+        </pelicula>
+        <!--pelicula 3-->
+        <pelicula id="p3">
+            <titol idioma="Anglés">Titanic</titol>
+            <director>James Cameron</director>
+            <any>1998</any>
+            <actors>
+                <actor_ref ref="A7"/>
+                <actor_ref ref="A8"/>
+                <actor_ref ref="A9"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio id="p2"/>
+        <recomanacio id="p1"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
